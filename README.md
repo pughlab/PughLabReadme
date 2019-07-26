@@ -1,27 +1,27 @@
 # PughLabReadme
-Documentation of best practices, coding tips, and ongoing projects developed by the Pugh. Lab
+Documentation of best practices, coding tips, and ongoing projects developed by the Pugh Lab
 
 ### Labels (in addition to your own custom ones)
-- Cancer Genome variant: 
-  - Copy-number
-  - Fusion
+- Cancer genome variant: 
+  - copy-number
+  - fusion
   - SNP
   - SNV
-  - Structural-variant
-  - Mutation-signature
+  - structural-variant
+  - mutation-signature
 - Topics:
-  - Immunogenomics
-  - Single-cell
-  - Cell-free-dna
-  - Epigenetics 
-  - Methylation 
-  - Minimal-residual-disease
+  - immunogenomics
+  - single-cell
+  - cell-free-dna
+  - epigenetics 
+  - methylation 
+  - minimal-residual-disease
 - Type:
-  - Wrapper
-  - Pipeline
-  - Tool
-  - Package
-  - Docker
+  - wrapper
+  - pipeline
+  - tool
+  - package
+  - docker
 
 ### Documentation
 - General guideline:
