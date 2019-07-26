@@ -28,6 +28,7 @@ Documentation of best practices, coding tips, and ongoing projects developed by 
   - ALWAYS comment your code 
   - Document all functions!!
   - Add README document when there’s other people who will be using your tool
+  - For R, use documentation within code and easily port to markdown with Roxygen: http://r-pkgs.had.co.nz/man.html
   
 - Google Python style guide:
   - https://google.github.io/styleguide/pyguide.html
