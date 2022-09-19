@@ -11,6 +11,7 @@ Documentation of best practices, coding tips, and ongoing projects developed by 
   - mutation-signature
 - Topics:
   - immunogenomics
+  - Bulk RNA-seq
   - single-cell
   - cell-free-dna
   - epigenetics 
