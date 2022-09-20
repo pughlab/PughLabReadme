@@ -1,0 +1,2 @@
+This section contains commands and parameters to run the RNS-seq pipeline including alignments and gene expression evaluations.
+The alignment tool used is STAR https://physiology.med.cornell.edu/faculty/skrabanek/lab/angsd/lecture_notes/STARmanual.pdf
