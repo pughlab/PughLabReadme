@@ -1,4 +1,4 @@
-This section contains commands and parameters to run the RNS-seq pipeline including alignments and gene expression quantification.
+'This section contains commands and parameters to run the RNS-seq pipeline including alignments and gene expression quantification.
 The alignment tool used is STAR https://physiology.med.cornell.edu/faculty/skrabanek/lab/angsd/lecture_notes/STARmanual.pdf
 The gene expression quantification is tool is RSEM https://deweylab.github.io/RSEM/README.html
-Prior to running STAR the user needs to create a reference directory based on the sequencing read length and the genome version as outlined in star-genome-reference 
+Prior to running STAR the user needs to create a reference directory based on the sequencing read length and the genome version as outlined in star-genome-reference' 
