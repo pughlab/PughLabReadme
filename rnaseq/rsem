@@ -1,0 +1,10 @@
+
+refdir= "rsem-reference-directory"
+
+rsem-calculate-expression -p 8 \
+--forward-prob 0 \
+--paired-end \
+--bam \
+--estimate-rspd \
+--output-genome-bam \
+--time  Aligned.toTranscriptome.out.bam $refdir output/resem.output 
