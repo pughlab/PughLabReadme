@@ -1,0 +1,7 @@
+module load rsem/1.2.29 
+module load igenome-human/hg38
+module load perl/5.30.0
+cd rsem-ref-dir  # reference files are to be created here.
+rsem-prepare-reference --gtf gtf-file-version-hg38 \
+reference-genome-version-hg38 \
+hg38.v21  #reference-id
