@@ -1,1 +1,20 @@
+module load  STAR/2.7.2b
 
+STAR --runMode alignReads \
+--genomeDir $GENOMEDIR \
+--readFilesCommand zcat \
+--readFilesIn  R1.fastq.gz   R2.fastq.gz  \
+--runThreadN 1 \
+--genomeSAsparseD 2\
+--twopassMode Basic \
+--outSAMprimaryFlag AllBestScore \
+--outFilterIntronMotifs RemoveNoncanonical \
+--outSAMtype BAM SortedByCoordinate \
+--chimSegmentMin 10 \
+--chimOutType SeparateSAMold \
+--quantMode GeneCounts TranscriptomeSAM \
+--limitIObufferSize 250000000 \
+--limitBAMsortRAM 29000000000 \
+--outTmpDir STARtmp \
+--outSAMunmapped Within \
+--outBAMsortingThreadN 1
