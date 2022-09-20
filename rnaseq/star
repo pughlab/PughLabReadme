@@ -1,7 +1,7 @@
 module load  STAR/2.7.2b
-
+genomedir=""
 STAR --runMode alignReads \
---genomeDir $GENOMEDIR \
+--genomeDir $genomedir \
 --readFilesCommand zcat \
 --readFilesIn  R1.fastq.gz   R2.fastq.gz  \
 --runThreadN 1 \
