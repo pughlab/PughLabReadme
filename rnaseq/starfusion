@@ -1,0 +1,5 @@
+## Run Star Fusion post-processing step
+/cluster/home/jbruce/pughlab/bin/STAR-Fusion-1.8.1/STAR-Fusion \
+--chimeric_junction $1 \
+--genome_lib_dir /cluster/projects/pughlab/references/STAR-Fusion/GRCh38_gencode_v31_CTAT_lib_Oct012019/ctat_genome_lib_build_dir/ \
+--output_dir $2
