@@ -1,0 +1,8 @@
+module load STAR/2.7.2b
+module load igenome-human/hg38
+
+--runMode genomeGenerate \
+--genomeDir outputdir \
+--genomeFastaFiles reference-genome-version-hg38 \
+--sjdbGTFfile gtf-version-hg38 \
+--sjdbOverhang 99. ## this parameter is the length of the sequencing reads - 1
